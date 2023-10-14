@@ -454,7 +454,7 @@ span {
      .home-img img {
         width: 70vw;
         margin-top: 4rem;
-        margin-left: -10rem;
+        margin-left: -14rem;
      }
 
      .about {
@@ -474,4 +474,14 @@ span {
         grid-template-columns: repeat(1, 1fr);
     }
 
+}
+
+/********** Extra small devices Only :-) (e.g., iPhone ) **********/
+
+@media (max-width: 479px) {
+ .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+        margin-left: -8rem;
+     }
 }
